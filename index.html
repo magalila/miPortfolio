@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Prompt:wght@900&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f8a043ef9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="menuMain">
+        <!------------------FONDO  ESTRELLAS------------------>
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <header>
+            <nav class="navMenu">
+                <div class="brand">
+                    <h2 id="AM">AM<span>F</span></h2>
+                </div>
+                <!-----------------MENU--------------------->
+                <ul class="miMenu">
+                    <li><a href="#AM">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacto">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!----------------PRESENTACION----------------->
+        <main class="miMain">
+            <div class="infoContent">
+                <h2 class="titulo">¡Hola! Soy</h2>
+                <h1 class="miNombre">Antonella <span>Magalí</span> Figueredo</h1>
+                <p class="breveDescripcion">Soy estudiante de ingeniería informática, amo la música, la ciencia y los
+                    animales. En este espacio, te contaré a qué me dedico, cuales fueron mis proyectos y como
+                    contactarme.</p>
+                <a download href="D:\APUNTES\ADA js\miPortfolio\cv.pdf">
+                    <button class="buttonDownload">Download CV</button>
+                </a>
+            </div>
+            <img src="https://i.pinimg.com/564x/62/3d/fe/623dfe05ece577f86eb400c88129de93.jpg" alt="developer">
+        </main>
+    </div>
+
+    <!--------------------ABOUT ME------------------->
+    <section class="fondoSobreMi">
+        <div class="containerAbout">
+            <div class="about" id="about">
+                <img src="https://github.com/magalila/miPortfolio/blob/main/mag2.jpg?raw=true" alt="mi retrato">
+                <div class="aboutInfo">
+                    <h2 class="titulo">About me</h2>
+                    <div class="divider"></div><!--linea debajo de about me-->
+                    <p class="miDescripcion">
+                        Soy estudiante de 4to año de ingeniería informática, mi ilusión es poder crecer como profesional
+                        dentro de la industria del desarrollo del software. En particular en el area de front-end.
+                    </p>
+                    <button class="buttonDownload">Read more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------HABILIDADES------------------->
+    <section class="habilidades">
+        <div class="habilidadesHeading">
+            <h2 class="titulo">My abilities</h2>
+            <div class="divider"></div><!--SUBRAYADO ESTETICO-->
+        </div>
+        <section class="containerLenguajes">
+            <article class="lenguajes">
+                <i class="fa-brands fa-java iconos"></i>
+                <p>JAVA</p>
+            </article>
+            <article class="lenguajes">
+                <i class="fa-brands fa-html5 iconos"></i>
+                <p>HTML 5</p>
+            </article>
+            <article class="lenguajes">
+                <i class="fa-solid fa-c iconos"></i>
+                <p>C</p>
+            </article>
+            <article class="lenguajes">
+                <i class="fa-brands fa-git-alt iconos"></i>
+                <p>GIT</p>
+            </article>
+            <article class="lenguajes">
+                <i class="fa-sharp fa-solid fa-table iconos"></i>
+                <p>SQL</p>
+            </article>
+        </section>
+
+    </section>
+
+    <!----------------PORTFOLIO-------------------->
+    <section class="portfolio" id="portfolio">
+
+        <div class="portfolioHeading">
+            <h2 class="titulo">My portfolio</h2>
+            <div class="divider"></div><!--SUBRAYADO ESTETICO-->
+        </div>
+        <div class="containerPortfolio">
+            <section class="cardProject"><!--CARD PORTFOLIO 1-->
+                <div class="cardImg"><!--metodologia ben-->
+                </div>
+                <div class="cardTitle">
+                    <h2>Project Description</h2>
+                </div>
+                <div class="cardProjectLinks">
+                    <a href="https://github.com/magalila/4--Modelo-de-caja"
+                        target="_blank"><!--el target blank hace que se abra en una ventana aparte-->
+                        <i class="fa-brands fa-github fa-beat iconos"></i>
+                    </a>
+                    <a href="https://www.mercadolibre.com.ar/" target="_blank">
+                        <i class="fa-solid fa-earth-americas fa-beat iconos"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-solid fa-laptop-code fa-beat iconos"></i>
+                    </a>
+                </div>
+                <div class="boton">
+                    <button class="buttonDownload">
+                        Projects details
+                    </button>
+                </div>
+            </section>
+
+
+            <section class="cardProject"><!--CARD PORTFOLIO 2-->
+                <div class="cardImg">
+                </div>
+                <div class="cardTitle">
+                    <h2>Project Description</h2>
+                </div>
+                <div class="cardProjectLinks">
+                    <a href="https://github.com/magalila/3IntroduccionCSS"
+                        target="_blank"><!--el target blank hace que se abra en una ventana aparte-->
+                        <i class="fa-brands fa-github fa-beat iconos"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-solid fa-earth-americas fa-beat iconos"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-solid fa-laptop-code fa-beat iconos"></i>
+                    </a>
+                </div>
+                <div class="boton">
+                    <button class="buttonDownload">
+                        Projects details
+                    </button>
+                </div>
+            </section>
+
+
+            <section class="cardProject"><!--CARD PORTFOLIO 3-->
+                <div class="cardImg"><!--metodologia ben-->
+                </div>
+                <div class="cardTitle">
+                    <h2>Project Description</h2>
+                </div>
+                <div class="cardProjectLinks">
+                    <a href="https://github.com/magalila/2HtmlSemantico"
+                        target="_blank"><!--el target blank hace que se abra en una ventana aparte-->
+                        <i class="fa-brands fa-github fa-beat iconos"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-solid fa-earth-americas fa-beat iconos"></i>
+                    </a>
+                    <a href="" target="_blank">
+                        <i class="fa-solid fa-laptop-code fa-beat iconos"></i>
+                    </a>
+                </div>
+                <div class="boton">
+                    <button class="buttonDownload">
+                        Projects details
+                    </button>
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+    <!---------------CONTACTO--------------->
+    <div class="contactSection">
+        <div class="contactHeading" id="contacto">
+            <h2 class="titulo">Keep in touch</h2>
+            <div class="divider"></div>
+        </div>
+        <section class="containerContact">
+            <div class="contactForm">
+                <section class="contactMe">
+                    <h4 class="breveDescripcion">Contact me</h4>
+                    <section class="contactMeSection">
+                        <p class="breveDescripcion">También podés contactarme por estos medios:</p>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/magalila?tab=repositories"
+                                    target="_blank"><!--el target blank hace que se abra en una ventana aparte-->
+                                    <i class="fa-brands fa-github fa-beat iconos"></i> https://github.com/magalila
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-linkedin fa-beat iconos"></i> Linkedin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <i class="fa-brands fa-discord fa-beat iconos"></i>Magalila#2767
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank">
+                                    <i
+                                        class="fa-solid fa-envelope fa-beat iconos"></i>antonellamagalifigueredo@gmail.com
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section class="formSection">
+                    <h4 class="breveDescripcion">Send me a message...</h4>
+                    <!-----------FORMULARIO---------->
+                    <form class="form">
+                        <input type="text"
+                            placeholder="Name"><!-- input type= genera label,   placeholder= escribe "name" en el lugar donde debo completar el nombre-->
+                        <input class="miApellido" type="text" placeholder="Surname">
+                        <input type="text" placeholder="Email">
+                        <textarea placeholder="Place your message here..."></textarea>
+                        <button class="buttonDownload">Send message</button>
+                    </form>
+                </section>
+
+
+
+
+
+
+            </div>
+        </section>
+    </div>
+
+    <!------------FOOTER-------------->
+
+    <footer class="miFooter">
+        <div class="footer-content">
+            <h2 class="breveDescripcion">Antonella Magalí Figueredo</h2>
+            <h5>Frontend developer</h5>
+        </div>
+        <div class="sotial-network">
+            <a href="https://github.com/magalila?tab=repositories"
+                target="_blank"><!--el target blank hace que se abra en una ventana aparte-->
+                <i class="fa-brands fa-github fa-beat iconos"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fa-brands fa-linkedin fa-beat iconos"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fa-brands fa-twitter fa-beat"></i>
+            </a>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
